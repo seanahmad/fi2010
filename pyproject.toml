@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fi2010"
+version = "0.0.0"
+description = "FI2010 Dataset"
+authors = ["Shota Imaki <shota.imaki.0801@gmail.com>"]
+license = "CC0-1.0"
+
+[tool.poetry.dependencies]
+python = "^3.6.13"
+pandas = "^1.2.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
